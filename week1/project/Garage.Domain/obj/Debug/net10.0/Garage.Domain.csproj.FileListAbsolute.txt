@@ -1,0 +1,11 @@
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\bin\Debug\net10.0\Garage.Domain.deps.json
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\bin\Debug\net10.0\Garage.Domain.dll
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\bin\Debug\net10.0\Garage.Domain.pdb
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\Garage.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\Garage.Domain.AssemblyInfoInputs.cache
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\Garage.Domain.AssemblyInfo.cs
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\Garage.Domain.csproj.CoreCompileInputs.cache
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\Garage.Domain.dll
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\refint\Garage.Domain.dll
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\Garage.Domain.pdb
+C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\ref\Garage.Domain.dll
