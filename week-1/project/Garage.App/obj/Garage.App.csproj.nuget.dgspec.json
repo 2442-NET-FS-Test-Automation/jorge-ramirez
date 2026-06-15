@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.App\\Garage.App.csproj": {}
+    "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.App\\Garage.App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.App\\Garage.App.csproj": {
+    "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.App\\Garage.App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.App\\Garage.App.csproj",
+        "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.App\\Garage.App.csproj",
         "projectName": "Garage.App",
-        "projectPath": "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.App\\Garage.App.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.App\\obj\\",
+        "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.App\\Garage.App.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -27,8 +27,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.Domain\\Garage.Domain.csproj": {
-                "projectPath": "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.Domain\\Garage.Domain.csproj"
+              "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.Domain\\Garage.Domain.csproj": {
+                "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.Domain\\Garage.Domain.csproj"
               }
             }
           }
@@ -343,17 +343,17 @@
         }
       }
     },
-    "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.Domain\\Garage.Domain.csproj": {
+    "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.Domain\\Garage.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.Domain\\Garage.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.Domain\\Garage.Domain.csproj",
         "projectName": "Garage.Domain",
-        "projectPath": "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.Domain\\Garage.Domain.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Documents\\projects\\revature\\week1\\project\\Garage.Domain\\obj\\",
+        "projectPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.Domain\\Garage.Domain.csproj",
+        "packagesPath": "C:\\Users\\jorge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jorge\\OneDrive\\Documentos\\cognizant\\week-1\\project\\Garage.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jorge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"

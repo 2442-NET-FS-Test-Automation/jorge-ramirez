@@ -13,6 +13,7 @@ public class Program
         Console.WriteLine("Hello, World!"); 
         ClassesExample();
         OopDemo();
+        CollectionsDemo();
     }
 
     //private - only accessible within this class
@@ -134,5 +135,46 @@ public class Program
         Console.WriteLine("Override vs new on the sema object, different reference");
         Console.WriteLine($"Magazine reference -> {wired.Describe}");
         Console.WriteLine($"LibraryItem reference -> {baseMag.Describe}");
+    }
+
+    // Collections demo stuff
+    private static void CollectionsDemo()
+    {
+        Console.WriteLine("----- Collections --------");
+        // creating catalog item
+        Catalog catalog = new();
+        // create my object
+        Book dune = new Book("Dune", "Frank", 3);
+        // then add the item
+        catalog._items.Add(dune);
+
+        // I can also just call the constructor inside the Add() method call
+        // methods having their arguments satisfied by the returns of the other methods is a common pattern
+        // and sometimes you'll get like 4-5 callbacks deep in tools like ASP.NET
+        catalog._items.Add(new ReferenceBook("C# Language Specs", "Microsoft", "Technology"));
+        catalog._items.Add(new Magazine("Net Geo", "Charlie", "Conde Naste", 3));
+
+        Console.WriteLine($"Catalog holds {catalog._items.Count}; first is {catalog._items[0].Title}");
+
+        // Enum + Struc use
+        ItemKind kind = ItemKind.Magazine;
+        ShelfLocation location = new ShelfLocation(3, 12);
+        Console.WriteLine($"{kind} sits a {location}");
+
+        Book duneCopy = dune; // copies the reference
+        // if change one, change the other too
+
+        ShelfLocation location2 = location; // copies the data/fields
+        // these are not linked in the same way
+
+        // Generics: our own Shelf<T> that can hold anyhting - though technically all the collections
+        // we use thusfar have been generic classes themselves
+        Shelf<LibraryItem> shelf = new Shelf<LibraryItem>(10) ;
+        Shelf<int> intShelf = new Shelf<int>(200);
+
+        shelf.TryAdd(catalog._items[0]);
+        shelf.TryAdd(catalog._items[1]);
+
+        Console.WriteLine($"Trying to add a third thing in our catalog: {shelf.TryAdd(catalog._items[2])}");
     }
 }

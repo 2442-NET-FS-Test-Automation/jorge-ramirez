@@ -1,0 +1,20 @@
+namespace LibraryKata.Domain;
+// structs are for small bundles of data with no identity
+// they look kind of like classes but they are VALUE types
+// Meaning - two structs of the same type with the same date are identical
+// If I compare those two structs with .equals() I get true
+
+public readonly struct ShelfLocation
+{
+    public int Aisle{get;}
+    public int Shelf{get;}
+    public ShelfLocation(int aisle, int shelf)
+    {
+        Aisle = aisle;
+        Shelf = shelf;
+    }
+    public override string ToString()
+    {
+        return $"Aisle { Aisle}, Shelf {Shelf}";
+    }
+}
