@@ -25,8 +25,22 @@ class Program
             Console.WriteLine(vehicle.PerformService());
     }
 
-    static Vehicle? GetVehicleById(List<Vehicle> inventory, int id)
+    static Vehicle? GetVehicleById(List<Vehicle> inventory)
     {
+        ListInventory(inventory);
+        Console.Write("Enter vehicle Id: ");
+        if(!int.TryParse(Console.ReadLine(), out int id))
+        {
+            Console.WriteLine("Invalid number.");
+            return null;
+        }
+
+        if (id > inventory.Count() + 1)
+        {
+            Console.WriteLine("Invalid Id.");
+            return null;
+        }
+
         foreach (Vehicle vehicle in inventory)
         {
             if (vehicle.Id == id)
@@ -34,25 +48,12 @@ class Program
                 return vehicle;
             }
         }
-
         return null;
     }
 
     static void ShowServiceMilesForVehicle(List<Vehicle> inventory)
     {
-        ListInventory(inventory);
-        Console.Write("Enter vehicle Id: ");
-        int id = int.Parse(Console.ReadLine());
-
-        inventory.Count();
-
-        if (id > inventory.Count() + 1)
-        {
-            Console.WriteLine("Invalid Id.");
-            return;
-        }
-
-        Vehicle? selectedVehicle = GetVehicleById(inventory, id);
+        Vehicle? selectedVehicle = GetVehicleById(inventory);
 
         if (selectedVehicle is null)
         {
@@ -65,19 +66,7 @@ class Program
 
     static void ShowWashEquipmentForVehicle(List<Vehicle> inventory)
     {
-        ListInventory(inventory);
-        Console.Write("Enter vehicle Id: ");
-        int id = int.Parse(Console.ReadLine());
-
-        inventory.Count();
-
-        if (id > inventory.Count() + 1)
-        {
-            Console.WriteLine("Invalid Id.");
-            return;
-        }
-
-        Vehicle? selectedVehicle = GetVehicleById(inventory, id);
+        Vehicle? selectedVehicle = GetVehicleById(inventory);
 
         if (selectedVehicle is null)
         {
@@ -108,7 +97,8 @@ class Program
         {
             case "1":
                 Console.Write("Number of doors: ");
-                int numberOfDoors = int.Parse(Console.ReadLine());
+                if(!int.TryParse(Console.ReadLine(), out int numberOfDoors))
+                    numberOfDoors = 4;
                 inventory.Add(new Car(brand, model, mileage, numberOfDoors));
                 return "Car added.";
 

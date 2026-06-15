@@ -9,3 +9,15 @@ C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\Ga
 C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\refint\Garage.Domain.dll
 C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\Garage.Domain.pdb
 C:\Users\PC\Documents\projects\revature\week1\Garage.Domain\obj\Debug\net10.0\ref\Garage.Domain.dll
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\bin\Debug\net10.0\Garage.Domain.deps.json
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\bin\Debug\net10.0\Garage.Domain.dll
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\bin\Debug\net10.0\Garage.Domain.pdb
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\Garage.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\Garage.Domain.AssemblyInfoInputs.cache
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\Garage.Domain.AssemblyInfo.cs
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\Garage.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\Garage.Domain.sourcelink.json
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\Garage.Domain.dll
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\refint\Garage.Domain.dll
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\Garage.Domain.pdb
+C:\Users\jorge\OneDrive\Documentos\cognizant\week-1\project\Garage.Domain\obj\Debug\net10.0\ref\Garage.Domain.dll
